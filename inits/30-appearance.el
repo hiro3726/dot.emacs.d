@@ -10,3 +10,6 @@
 
 ;;; 現在行を目立たせる
 (global-hl-line-mode)
+
+(load "desert-theme")
+(load-theme 'desert t)

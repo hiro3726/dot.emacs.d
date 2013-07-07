@@ -29,6 +29,7 @@
 ;; Please, install rainbow-mode
 ;; Colors with +x are lighter. Colors with -x are darker.
 (let ((desert-fg            "ghost white")
+      (desert-bg-2          "gray10")
       (desert-bg-1          "gray15")
       (desert-bg            "gray20")
       (desert-bg+1          "gray40")
@@ -71,7 +72,7 @@
    `(mode-line-buffer-id ((t (:foreground ,desert-warning-fg :bold t))))
 
    `(linum ((t (:foreground ,desert-yellow :background ,desert-bg))))
-   `(highlight ((t (:foreground ,desert-khaki :background ,desert-olive))))
+   `(highlight ((t (:background ,desert-bg-2))))
    `(region ((t (:foreground ,desert-khaki :background ,desert-olive))))
    `(show-paren-mismatch ((t (:foreground ,desert-red :background ,desert-bg :bold t))))
    `(show-paren-match ((t (:foreground ,desert-fg :background "darkcyan" :bold t))))

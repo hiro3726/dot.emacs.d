@@ -18,9 +18,6 @@
 ;; 最適化無効でメニュー表示崩れ回避
 (setq popup-use-optimized-column-computation nil)
 
-;; あるモードでも動くように
-(add-to-list 'ac-modes 'yatex-mode)
-
 ;; flyspell-mode で補完できない
 (ac-flyspell-workaround)
 

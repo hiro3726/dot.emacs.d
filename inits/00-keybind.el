@@ -7,3 +7,7 @@
 ;; to LARGE C-x C-u と to small C-x C-l
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+
+(global-set-key "\C-m" 'newline-and-indent)
+(global-set-key "\C-j" 'newline)
+

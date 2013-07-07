@@ -30,6 +30,9 @@
     google-translate
     auto-complete
     foreign-regexp
+    auctex
+    auctex-latexmk
+    elpy
     ))
 
 (let ((not-installed (loop for x in installing-package-list
